@@ -28,9 +28,9 @@ public class LinkedListExample {
 
 
         //2# add at the begining of the list
-        //   for ( int i=0; i<1E5; i++){
-        //     list.add(0, i);
-        // }
+          for ( int i=0; i<1E5; i++){
+            list.add(0, i);
+        }
         // Output for 2#
         // Time taken: 1389 ms for ArrayList
         // Time taken: 3 ms for LinkedList
@@ -45,12 +45,13 @@ public class LinkedListExample {
         // Time taken: 22 ms for LinkedList
 
         //4# add less than half way through the list
-        for ( int i=0; i<1E5; i++){
-            list.add(900, i);
-        }
+        // for ( int i=0; i<1E5; i++){
+        //     list.add(900, i);
+        // }
 
         // Output for 4#
-
+        // Time taken: 1378 ms for ArrayList
+        // Time taken: 156 ms for LinkedList
 
         long end = System.currentTimeMillis();
 
