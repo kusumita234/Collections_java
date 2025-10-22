@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.List;
+// import java.util.List;
 
 public class ArrayListExample {
     public static void main ( String[] args ){
@@ -28,7 +28,9 @@ public class ArrayListExample {
         for( Integer value: numbers){
             System.out.println(value);
         }
-        List<String> values = new ArrayList<String>();
+
+        // ArrayList for String and valid use of Interface List
+        //List<String> values = new ArrayList<String>();
 
     }
 }
